@@ -11,7 +11,7 @@ const Jogo = () => {
   const [start, setStar]= useState( getItem('favoritosJ')||[]);
 
   useEffect(() => {
-    const url = "https://api-roms.vercel.app";
+    const url = "https://api-roms-kaiquevit.vercel.app";
 
     fetch(url)
       .then((respFetch) => respFetch.json())
@@ -63,7 +63,7 @@ const Jogo = () => {
         ))}
       </div>
       <Routes>
-        <Route path="/roms/:id" element={<DetalhesJogo />} />
+        <Route path="/roms/:id/" element={<DetalhesJogo />} />
       </Routes>
     </div>
   );
