@@ -11,7 +11,7 @@ const Jogo = () => {
   const [start, setStar]= useState( getItem('favoritosJ')||[]);
 
   useEffect(() => {
-    const url = "http://localhost:9081/roms";
+    const url = "https://api-roms.vercel.app";
 
     fetch(url)
       .then((respFetch) => respFetch.json())

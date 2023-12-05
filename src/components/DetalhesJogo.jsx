@@ -7,7 +7,7 @@ const DetalhesJogo = () => {
   const [rom, setRom] = useState([]);
 
   useEffect(() => {
-    const url = `http://localhost:9081/roms/${id}`;
+    const url = `https://api-roms.vercel.app/roms/${id}`;
 
     fetch(url)
       .then((respFetch) => respFetch.json())
