@@ -63,7 +63,7 @@ const Jogo = () => {
         ))}
       </div>
       <Routes>
-        <Route path="/roms/:id/" element={<DetalhesJogo />} />
+        <Route path="/roms/:id" element={<DetalhesJogo />} />
       </Routes>
     </div>
   );
