@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 300vh; 
+  }
+  
+  .header {
+    flex: 1; /* Ajusta a altura da seção superior */
+    background-color: #ffffff; /* Cor de fundo da seção superior */
+    padding: 20px;
+  }
+  
+  .content {
+    flex: 2; /* Ajusta a altura da seção inferior */
+    background-color: #ffffff; /* Cor de fundo da seção inferior */
+    padding: 20px;
+    overflow: auto; /* Adiciona uma barra de rolagem se o conteúdo for maior que a tela */
+
+  }
+  .content img {
+    align-items: center;
+    display: flex;
+  }
+  h1{
+    font-family: 'Press Start 1P', cursive;
+    text-decoration: none;
+    padding: 0.2%;
+    display: inline-block;
+  }
+  

@@ -1,0 +1,27 @@
+.Dowlond {
+    display: flex;
+    /* Estilizando o botão */
+    padding: 11px 24px; /* Ajuste o espaçamento interno conforme necessário para tornar o botão maior */
+    font-size: 34px; /* Tamanho da fonte */
+    border: none; /* Removendo a borda do botão */
+    background-color: #000000; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    border-radius: 10px; /* Borda arredondada */
+    cursor: pointer; /* Cursor ao passar o mouse */
+    
+    /* Posicionando o botão no lado direito */
+    position: fixed;
+    top: 440px; /* Ajuste a distância do topo conforme necessário para posicionar mais para baixo */
+    right: 450px; /* Ajuste a distância da direita conforme necessário */
+  
+    /* Adicionando regras para dispositivos móveis (por exemplo, largura de tela inferior a 768 pixels) */
+    @media only screen and (max-width: 768px) {
+      position: fixed;
+      top: 80%; /* Ajuste a distância do topo conforme necessário para dispositivos móveis */
+      right: 50%; /* Ajuste a distância da direita conforme necessário para dispositivos móveis */
+      transform: translate(50%, -50%); /* Centraliza o botão horizontalmente no meio da tela */
+    }
+  }
+a{
+    text-decoration: none;
+}  
